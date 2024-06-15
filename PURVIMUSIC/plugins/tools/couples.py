@@ -14,8 +14,8 @@ from PURVIMUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="|| ˹⍟ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ⍟˼ ||",
-            url=f"https://t.me/heeer_music_bot?startgroup=true",
+            text="||⍟ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ⍟||",
+            url=f"https://t.me/Sukku_music_bot?startgroup=true",
         ),
     ],
 ]
