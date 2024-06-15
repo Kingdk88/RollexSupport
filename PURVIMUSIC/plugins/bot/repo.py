@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓᴄσмє fσʀ 🅓🅗🅟🅡 ʀєρσѕ ✪
+✪ ωεℓᴄσмє fσʀ ʀօʟʟɛӼ ʀєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -29,33 +29,33 @@ start_txt = """**
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/Heeer_music_bot?startgroup=true")
+          InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/Sukku_music_bot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/FONT_CHANNEL_01"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/OWNER_DHPR"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/Rollex_dairies"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/RollexSupport"),
           ],
                [
-                InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+                InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
 
 ],
 [
-              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-              InlineKeyboardButton("︎🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("︎𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
               ],
               [
-              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
 ],
 [
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/1d2c51b0100039270cc8c.jpg",
+        photo="https://telegra.ph/file/07b1e83a99b93c8bf84dc.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -78,7 +78,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Deepking88/DHPROP) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/exampurrs)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Deepking88/DHPROP) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/Rollex_dairies)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
