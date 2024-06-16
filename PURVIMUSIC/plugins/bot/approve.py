@@ -104,7 +104,7 @@ async def autoapprove(client: app, message: ChatJoinRequest):
                 [
                     [
                         InlineKeyboardButton(
-                            " ๏ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ๏ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                            " ๏ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ๏ ", url=f"https://t.me/Sukku_music_bot?startgroup=true")
                     ]
                 ]
             ),
